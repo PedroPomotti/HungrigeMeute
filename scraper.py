@@ -234,11 +234,26 @@ PDF_LINK_JS = """() => {
 }"""
 
 
+def _detect_column_starts(words, binw=10, frac=0.5, min_sep=80):
+    """Column left-edges show up as dominant peaks in an x0 histogram."""
+    import collections
+    hist = collections.Counter(int(w["x0"] // binw) * binw for w in words)
+    mx = max(hist.values())
+    starts = []
+    for b in sorted(b for b, c in hist.items() if c >= frac * mx):
+        if starts and b - starts[-1] < min_sep:
+            continue
+        starts.append(b)
+    return starts
+
+
 def extract_pdf_text(data: bytes) -> str:
-    """Column-aware text extraction. Multi-column menus break naive
-    line-by-line extraction (it reads across columns); instead we detect column
-    separators from word positions and read each column top-to-bottom, left
-    column first."""
+    """Column-aware text extraction. Multi-column menus break naive line-by-line
+    extraction (it reads straight across the columns). We detect each column's
+    left edge from the word-position histogram, place the boundaries in the
+    narrow gaps just before each column start, assign every word to a column by
+    its left edge, then read each column top-to-bottom, left column first.
+    Verified against the real Leon's Loft weekly PDF."""
     import pdfplumber  # imported lazily so non-PDF runs don't need it
     pages_out = []
     with pdfplumber.open(io.BytesIO(data)) as pdf:
@@ -247,28 +262,15 @@ def extract_pdf_text(data: bytes) -> str:
             if not words:
                 pages_out.append(page.extract_text() or "")
                 continue
-            # 1) covered x-spans -> gaps between them -> column separators
-            iv = sorted((w["x0"], w["x1"]) for w in words)
-            merged = [list(iv[0])]
-            for a, b in iv[1:]:
-                if a <= merged[-1][1] + 1:
-                    merged[-1][1] = max(merged[-1][1], b)
-                else:
-                    merged.append([a, b])
-            thr = 0.035 * page.width
-            seps = [(merged[i][1] + merged[i + 1][0]) / 2
-                    for i in range(len(merged) - 1)
-                    if merged[i + 1][0] - merged[i][1] > thr]
-            bounds = [0] + seps + [page.width + 1]
-            # 2) assign each word to a column by its horizontal centre
-            cols = [[] for _ in range(len(bounds) - 1)]
+            starts = _detect_column_starts(words)
+            tol = 12  # boundary sits this far left of the next column's start
+            bounds = [s - tol for s in starts[1:]] + [float("inf")]
+            cols = [[] for _ in starts]
             for w in words:
-                c = (w["x0"] + w["x1"]) / 2
-                for i in range(len(bounds) - 1):
-                    if bounds[i] <= c < bounds[i + 1]:
-                        cols[i].append(w)
-                        break
-            # 3) within a column group words into lines by 'top' (L->R, T->B)
+                idx = 0
+                while idx < len(bounds) and w["x0"] >= bounds[idx]:
+                    idx += 1
+                cols[min(idx, len(cols) - 1)].append(w)
             lines = []
             for col in cols:
                 col.sort(key=lambda w: (round(w["top"] / 3), w["x0"]))
@@ -286,8 +288,13 @@ def extract_pdf_text(data: bytes) -> str:
     return "\n".join(pages_out)
 
 
+LEONS_SIZE_RE = re.compile(
+    r'^(klein|gross|small|large)\s*\|\s*(klein|gross|small|large)\b', re.I)
+LEONS_CONT_RE = re.compile(r'(mit|und|&|with|and)\s*$', re.I)
+
+
 def parse_leons(text: str) -> list[dict]:
-    items, cat = [], ""
+    items, cat, prev = [], "", ""
     for ln in text.splitlines():
         s = ln.strip()
         if not s or LEONS_NOISE_RE.search(s):
@@ -295,12 +302,20 @@ def parse_leons(text: str) -> list[dict]:
         if re.search(r'\+\s*\d', s):       # add-on modifiers, e.g. "Burrata + 7.5"
             continue
         if s.lower() in LEONS_SECTIONS:
-            cat = s
+            cat, prev = s, ""
             continue
         m = LEONS_PRICE_TAIL.match(s)
-        if m and len(m.group(1)) > 2 and not m.group(1).lower() in LEONS_SECTIONS:
-            items.append({"category": cat, "name": m.group(1).strip(),
+        if m and len(m.group(1)) > 2 and m.group(1).lower() not in LEONS_SECTIONS:
+            name = m.group(1).strip()
+            # a bare size line ("klein | gross 29 | 35") or a continuation
+            # ("Panna Cotta mit" / "Aprikosen-Kompott 10.5") -> use the prior line
+            if prev and (LEONS_SIZE_RE.match(name) or LEONS_CONT_RE.search(prev)):
+                name = f"{prev} {name}".replace("  ", " ").strip()
+            items.append({"category": cat, "name": name,
                           "description": "", "price_text": m.group(2).strip()})
+            prev = ""
+        else:
+            prev = s   # remember as a potential name prefix for the next line
     return items
 
 
