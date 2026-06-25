@@ -1,0 +1,50 @@
+name: Scrape lunch menus
+
+# Runs every weekday morning (Swiss time) and on manual trigger.
+# 05:30 UTC = 07:30 CEST (summer) / 06:30 CET (winter) -- menus are up by then.
+on:
+  schedule:
+    - cron: "30 5 * * 1-5"
+  workflow_dispatch: {}
+
+# Allow the workflow to push the updated menus.json back to the repo.
+permissions:
+  contents: write
+
+concurrency:
+  group: scrape-menus
+  cancel-in-progress: true
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Commit menus.json if changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add menus.json
+          if git diff --staged --quiet; then
+            echo "No menu changes."
+          else
+            git commit -m "Update menus for $(date -u +%Y-%m-%d)"
+            git push
+          fi

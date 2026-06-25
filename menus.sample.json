@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-06-23T16:25:58+02:00",
+  "date": "2026-06-23",
+  "weekday": "Dienstag",
+  "timezone": "Europe/Zurich",
+  "restaurants": [
+    {
+      "id": "stopover",
+      "name": "Stopover",
+      "url": "https://sv-gastronomie.ch/menu/Flughafen%20AG,%20Stopover,%20Z%C3%BCrich/Mittagsmen%C3%BC",
+      "status": "ok",
+      "error": null,
+      "items": [
+        {
+          "category": "Chefs Choice",
+          "name": "Gebackene Pouletbrust",
+          "description": "Kräuterbutter, Schupfnudeln, Kabis Randen Gemüse, Rote Zwiebeln, Ingwer",
+          "price_ext": 20.0,
+          "price_int": 18.0
+        },
+        {
+          "category": "Home",
+          "name": "Ghackets und Hörnli",
+          "description": "Rindsgehacktem, Apfelmus, Reibkäse |Tagessalat oder Tagessuppe",
+          "price_ext": 16.5,
+          "price_int": 14.8
+        },
+        {
+          "category": "Veggie",
+          "name": "Süsskartoffel Curry",
+          "description": "Kichererbsen, Blattspinat, Linsen Quinoa Basmatireis |Tagessuppe oder Tagessalat",
+          "price_ext": 16.0,
+          "price_int": 13.9
+        }
+      ],
+      "raw_text": "Mittagsmenü\nDiese Woche\nMo 22.06.\nDi 23.06.\nChefs Choice\nGebackene Pouletbrust\nKräuterbutter, Schupfnudeln, Kabis Randen Gemüse, Rote Zwiebeln, Ingwer\nEXT  CHF 20.00\nINT  CHF 18.00\nHome\nGhackets und Hörnli\nRindsgehacktem, Apfelmus, Reibkäse |Tagessalat oder Tagessuppe\nEXT  CHF 16.50\nINT  CHF 14.80\nVeggie\nSüsskartoffel Curry\nKichererbsen, Blattspinat, Linsen Quinoa Basmatireis |Tagessuppe oder Tagessalat\nEXT  CHF 16.00\nINT  CHF 13.90"
+    },
+    {
+      "id": "chreis14",
+      "name": "Chreis 14",
+      "url": "https://sv-gastronomie.ch/menu/Chreis%2014,%20Z%C3%BCrich/Mittagsmen%C3%BC",
+      "status": "ok",
+      "error": null,
+      "items": [],
+      "raw_text": "(wird beim echten Lauf befüllt)"
+    }
+  ]
+}
