@@ -235,12 +235,55 @@ PDF_LINK_JS = """() => {
 
 
 def extract_pdf_text(data: bytes) -> str:
+    """Column-aware text extraction. Multi-column menus break naive
+    line-by-line extraction (it reads across columns); instead we detect column
+    separators from word positions and read each column top-to-bottom, left
+    column first."""
     import pdfplumber  # imported lazily so non-PDF runs don't need it
-    out = []
+    pages_out = []
     with pdfplumber.open(io.BytesIO(data)) as pdf:
         for page in pdf.pages:
-            out.append(page.extract_text() or "")
-    return "\n".join(out)
+            words = page.extract_words(use_text_flow=False, keep_blank_chars=False)
+            if not words:
+                pages_out.append(page.extract_text() or "")
+                continue
+            # 1) covered x-spans -> gaps between them -> column separators
+            iv = sorted((w["x0"], w["x1"]) for w in words)
+            merged = [list(iv[0])]
+            for a, b in iv[1:]:
+                if a <= merged[-1][1] + 1:
+                    merged[-1][1] = max(merged[-1][1], b)
+                else:
+                    merged.append([a, b])
+            thr = 0.035 * page.width
+            seps = [(merged[i][1] + merged[i + 1][0]) / 2
+                    for i in range(len(merged) - 1)
+                    if merged[i + 1][0] - merged[i][1] > thr]
+            bounds = [0] + seps + [page.width + 1]
+            # 2) assign each word to a column by its horizontal centre
+            cols = [[] for _ in range(len(bounds) - 1)]
+            for w in words:
+                c = (w["x0"] + w["x1"]) / 2
+                for i in range(len(bounds) - 1):
+                    if bounds[i] <= c < bounds[i + 1]:
+                        cols[i].append(w)
+                        break
+            # 3) within a column group words into lines by 'top' (L->R, T->B)
+            lines = []
+            for col in cols:
+                col.sort(key=lambda w: (round(w["top"] / 3), w["x0"]))
+                cur_top, cur = None, []
+                for w in col:
+                    if cur_top is None or abs(w["top"] - cur_top) <= 3:
+                        cur.append(w["text"])
+                        cur_top = w["top"] if cur_top is None else cur_top
+                    else:
+                        lines.append(" ".join(cur))
+                        cur, cur_top = [w["text"]], w["top"]
+                if cur:
+                    lines.append(" ".join(cur))
+            pages_out.append("\n".join(lines))
+    return "\n".join(pages_out)
 
 
 def parse_leons(text: str) -> list[dict]:
@@ -248,6 +291,8 @@ def parse_leons(text: str) -> list[dict]:
     for ln in text.splitlines():
         s = ln.strip()
         if not s or LEONS_NOISE_RE.search(s):
+            continue
+        if re.search(r'\+\s*\d', s):       # add-on modifiers, e.g. "Burrata + 7.5"
             continue
         if s.lower() in LEONS_SECTIONS:
             cat = s
