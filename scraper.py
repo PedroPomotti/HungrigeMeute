@@ -20,6 +20,7 @@ Per-site parsers (validated against real page data):
 from __future__ import annotations
 
 import datetime as dt
+import io
 import json
 import re
 import sys
@@ -215,12 +216,55 @@ def parse_zoom(text: str, today: dt.date | None = None) -> list[dict]:
     return items
 
 
+# ----------------------------------------------------------------------------
+# Leon's Loft -- weekly menu lives in a PDF linked from the site (DE + EN)
+# ----------------------------------------------------------------------------
+LEONS_SECTIONS = {"weekly-lunch", "salad & bowls", "soup", "sommerlich leicht",
+                  "burger", "more nice bites", "dessert", "season & more",
+                  "vegetarisch", "fleisch", "fisch", "meat", "pasta", "classic"}
+LEONS_NOISE_RE = re.compile(r'lunch\s*[&-]?\s*dine|the circle|mail@|leonsloft|'
+                            r'alle preise|add on|translated with|'
+                            r'woche\s*\d|week\s*\d', re.I)
+LEONS_PRICE_TAIL = re.compile(
+    r'^(.*?)\s+(\d{1,3}(?:[.,]\d{1,2})?(?:\s*\|\s*\d{1,3}(?:[.,]\d{1,2})?)?)\s*$')
+PDF_LINK_JS = """() => {
+  const a = [...document.querySelectorAll('a')].map(x => x.href)
+    .find(h => /Lunch[_-]?Dine.*_DE\\.pdf/i.test(h));
+  return a || null;
+}"""
+
+
+def extract_pdf_text(data: bytes) -> str:
+    import pdfplumber  # imported lazily so non-PDF runs don't need it
+    out = []
+    with pdfplumber.open(io.BytesIO(data)) as pdf:
+        for page in pdf.pages:
+            out.append(page.extract_text() or "")
+    return "\n".join(out)
+
+
+def parse_leons(text: str) -> list[dict]:
+    items, cat = [], ""
+    for ln in text.splitlines():
+        s = ln.strip()
+        if not s or LEONS_NOISE_RE.search(s):
+            continue
+        if s.lower() in LEONS_SECTIONS:
+            cat = s
+            continue
+        m = LEONS_PRICE_TAIL.match(s)
+        if m and len(m.group(1)) > 2 and not m.group(1).lower() in LEONS_SECTIONS:
+            items.append({"category": cat, "name": m.group(1).strip(),
+                          "description": "", "price_text": m.group(2).strip()})
+    return items
+
+
 PARSERS = {
     "sv": lambda t, today: parse_sv(t),
     "air": lambda t, today: parse_air(t),
     "hyatt": lambda t, today: parse_hyatt(t),
     "zoom": lambda t, today: parse_zoom(t, today),
-    "leons": lambda t, today: [],   # dishes are in an image/PDF, not HTML text
+    "leons": lambda t, today: parse_leons(t),
 }
 
 
@@ -251,6 +295,8 @@ def scrape_one(context, r: dict, today: dt.date) -> dict:
            "status": "ok", "error": None, "items": [], "raw_text": ""}
     page = context.new_page()
     try:
+        if r["type"] == "leons":
+            return scrape_leons(context, page, r, res)
         page.goto(r["url"], wait_until="domcontentloaded", timeout=45000)
         wait_for_menu(page)
         if r["type"] == "sv":
@@ -261,7 +307,44 @@ def scrape_one(context, r: dict, today: dt.date) -> dict:
         res["items"] = PARSERS.get(r["type"], lambda t, d: [])(raw, today)
         if not res["items"] and not raw:
             res["status"] = "empty"
-        elif not res["items"] and r["type"] != "leons":
+        elif not res["items"]:
+            res["status"] = "raw_only"
+    except Exception as exc:  # noqa: BLE001
+        res["status"] = "error"
+        res["error"] = f"{type(exc).__name__}: {exc}"
+    finally:
+        page.close()
+    return res
+
+
+def scrape_leons(context, page, r: dict, res: dict) -> dict:
+    """Find the current week's German PDF on the site and extract its text.
+    A real browser request bypasses the robots block that stops simple fetchers;
+    use only for personal, non-commercial menu lookups."""
+    try:
+        # the weekly PDF is linked from the front page; lunch-dine page is a backup
+        href = None
+        for url in ("https://www.leonsloft.ch/", r["url"]):
+            page.goto(url, wait_until="domcontentloaded", timeout=45000)
+            href = page.evaluate(PDF_LINK_JS)
+            if href:
+                break
+        if not href:
+            res["status"] = "error"
+            res["error"] = "DE weekly PDF link not found on site"
+            return res
+        res["pdf_url"] = href
+        resp = context.request.get(href, timeout=45000)
+        if not resp.ok:
+            res["status"] = "error"
+            res["error"] = f"PDF download HTTP {resp.status}"
+            return res
+        text = extract_pdf_text(resp.body())
+        res["raw_text"] = text.strip()
+        res["items"] = parse_leons(text)
+        if not res["items"] and not res["raw_text"]:
+            res["status"] = "empty"
+        elif not res["items"]:
             res["status"] = "raw_only"
     except Exception as exc:  # noqa: BLE001
         res["status"] = "error"
