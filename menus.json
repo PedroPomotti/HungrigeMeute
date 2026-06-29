@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T18:28:39+02:00",
-  "date": "2026-06-26",
-  "weekday": "Freitag",
+  "generated_at": "2026-06-29T19:49:11+02:00",
+  "date": "2026-06-29",
+  "weekday": "Montag",
   "timezone": "Europe/Zurich",
   "restaurants": [
     {
@@ -13,27 +13,27 @@
       "items": [
         {
           "category": "Chefs Choice",
-          "name": "The Monday Cordon Bleu",
-          "description": "Poulet Cordon Bleu, Brätler Kartoffeln, Ofen Karotten, Ingwer, Zitronenschnitz",
+          "name": "Rinds Stroganoff",
+          "description": "Paprikasauce, Peperoni, Champignons, Nudeln, Ofenzucchetti, Parmesan",
           "price_ext": 20.0,
           "price_int": 18.0
         },
         {
           "category": "Home",
-          "name": "Emmentaler Hacksteak",
-          "description": "Demi Glace, Gletscherhütli, Erbsen, Cipolloti",
+          "name": "Nasi Goreng",
+          "description": "Poulet, Basmatireis, asiatisches Gemüse |Tagessalat oder Tagessuppe",
           "price_ext": 16.5,
           "price_int": 14.8
         },
         {
           "category": "Veggie",
-          "name": "Gebackene Falafel",
-          "description": "Knoblauch Joghurt Sauce, Couscous, Peperonata",
+          "name": "Rotes Auberginen Curry",
+          "description": "Basmatireis, Wokgemüse",
           "price_ext": 16.0,
           "price_int": 13.9
         }
       ],
-      "raw_text": "SV RESTAURANT\nMENÜPLAN\nSTANDORTE\nINFORMATIONEN\naccount_circle\nDE\nMenüplan\n1\n2\n3\nMittagsmenü\nNächste Woche\nMo.\n29.06.\nDi.\n30.06.\nMi.\n01.07.\nDo.\n02.07.\nFr.\n03.07.\nChefs Choice\nThe Monday Cordon Bleu\nPoulet Cordon Bleu, Brätler Kartoffeln, Ofen Karotten, Ingwer, Zitronenschnitz\nEXT  CHF 20.00\nINT  CHF 18.00\nHome\nEmmentaler Hacksteak\nDemi Glace, Gletscherhütli, Erbsen, Cipolloti\nEXT  CHF 16.50\nINT  CHF 14.80\nVeggie\nGebackene Falafel\nKnoblauch Joghurt Sauce, Couscous, Peperonata\nEXT  CHF 16.00\nINT  CHF 13.90\nfilter_list\nFilter\nMenüplan\nStandort\nclear\nMenüplan\nMittagsmenü\nCatering\nCatering Angebot\n\nOb Sie zum Apéro oder einem feierlichen Anlass einladen – bei uns ist Ihre Verpflegung in besten Händen.\n\nUnser Catering Angebot (PDF)\nInformationen\nCafeteria Operation Center\n\nDie Cafeteria verpflegt Flight-Crews und Mitarbeitende des Gebäudes mit kalten und warmen Pausensnacks. Für einen guten Start in den Tag oder die kleine Pause nach dem Mittagessen sorgt der frisch gebrühte Kaffee aus dem Cimbali Halbautomat. Wählen Sie aus dem grosses Angebot an frischen Sandwiches, knackigen Salaten, Wienerli mit Brot, Gebäck, Glaces und Kioskartikeln. Dazu passt ein erfrischendes Getränk zum Mitnehmen.\n\nMontag bis Freitag:\n07.00 bis 13.00 Uhr\n\nZum Lageplan\nWie nachhaltig ist mein Menü?\n\nMit dem ECO-SCORE® und CO2 Wert pro Menü unterstützen wir unsere Gäste in der Wahl nach dem umweltfreundlichsten Menü in unseren Restaurants.\n\nMehr Informationen\nSV Voucher\n\nOb zum Verschenken oder selbst Einlösen – mit unseren Gutscheinen trifft man immer die richtige Wahl.\n\nMehr Informationen\n1\n2\n3\nÖffnungszeiten\nRestaurant\nMo - Fr:\n07:00-14:00 Uhr\nMittag\nMo - Fr:\n11:00-13:30 Uhr\nZum Download\nnote\nWochenmenüplan\nGastgeber\nMirko Scherz\n+41 79 691 85 04\nE-Mail\nstopover@sv-group.ch\nDatenschutzerklärung\n|\nImpressum\nMittagsmenü | Flughafen AG, Stopover, Zürich | Menüplan | SV Restaurant\nGERMAN\nFRENCH\nENGLISH\nITALIAN\n×\nDiese Webseite verwendet Cookies.\nWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren und unseren Datenverkehr zu analysieren. Wir geben Informationen über Ihre Nutzung unserer Website auch an unsere Werbe- und Analysepartner weiter, die diese möglicherweise mit anderen Informationen kombinieren, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung ihrer Dienste gesammelt haben. Weitere Informationen\nALLE AKZEPTIEREN\nALLE ABLEHNEN\nDETAILS ANZEIGEN"
+      "raw_text": "SV RESTAURANT\nMENÜPLAN\nSTANDORTE\nINFORMATIONEN\naccount_circle\nDE\nMenüplan\n1\n2\n3\nMittagsmenü\nDiese Woche\nMo.\n29.06.\nDi.\n30.06.\nMi.\n01.07.\nDo.\n02.07.\nFr.\n03.07.\nChefs Choice\nRinds Stroganoff\nPaprikasauce, Peperoni, Champignons, Nudeln, Ofenzucchetti, Parmesan\nEXT  CHF 20.00\nINT  CHF 18.00\nHome\nNasi Goreng\nPoulet, Basmatireis, asiatisches Gemüse |Tagessalat oder Tagessuppe\nEXT  CHF 16.50\nINT  CHF 14.80\nVeggie\nRotes Auberginen Curry\nBasmatireis, Wokgemüse\nEXT  CHF 16.00\nINT  CHF 13.90\nfilter_list\nFilter\nMenüplan\nStandort\nclear\nMenüplan\nMittagsmenü\nCatering\nCatering Angebot\n\nOb Sie zum Apéro oder einem feierlichen Anlass einladen – bei uns ist Ihre Verpflegung in besten Händen.\n\nUnser Catering Angebot (PDF)\nInformationen\nCafeteria Operation Center\n\nDie Cafeteria verpflegt Flight-Crews und Mitarbeitende des Gebäudes mit kalten und warmen Pausensnacks. Für einen guten Start in den Tag oder die kleine Pause nach dem Mittagessen sorgt der frisch gebrühte Kaffee aus dem Cimbali Halbautomat. Wählen Sie aus dem grosses Angebot an frischen Sandwiches, knackigen Salaten, Wienerli mit Brot, Gebäck, Glaces und Kioskartikeln. Dazu passt ein erfrischendes Getränk zum Mitnehmen.\n\nMontag bis Freitag:\n07.00 bis 13.00 Uhr\n\nZum Lageplan\nWie nachhaltig ist mein Menü?\n\nMit dem ECO-SCORE® und CO2 Wert pro Menü unterstützen wir unsere Gäste in der Wahl nach dem umweltfreundlichsten Menü in unseren Restaurants.\n\nMehr Informationen\nSV Voucher\n\nOb zum Verschenken oder selbst Einlösen – mit unseren Gutscheinen trifft man immer die richtige Wahl.\n\nMehr Informationen\n1\n2\n3\nÖffnungszeiten\nRestaurant\nMo - Fr:\n07:00-14:00 Uhr\nMittag\nMo - Fr:\n11:00-13:30 Uhr\nZum Download\nnote\nWochenmenüplan\nGastgeber\nMirko Scherz\n+41 79 691 85 04\nE-Mail\nstopover@sv-group.ch\nDatenschutzerklärung\n|\nImpressum\nMittagsmenü | Flughafen AG, Stopover, Zürich | Menüplan | SV Restaurant\nGERMAN\nFRENCH\nENGLISH\nITALIAN\n×\nDiese Webseite verwendet Cookies.\nWir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren und unseren Datenverkehr zu analysieren. Wir geben Informationen über Ihre Nutzung unserer Website auch an unsere Werbe- und Analysepartner weiter, die diese möglicherweise mit anderen Informationen kombinieren, die Sie ihnen bereitgestellt haben oder die sie im Rahmen Ihrer Nutzung ihrer Dienste gesammelt haben. Weitere Informationen\nALLE AKZEPTIEREN\nALLE ABLEHNEN\nDETAILS ANZEIGEN"
     },
     {
       "id": "chreis14",
@@ -43,17 +43,24 @@
       "error": null,
       "items": [
         {
+          "category": "Pure & Whole",
+          "name": "Stadium Chicken Burger",
+          "description": "Brioche Bun, Cocktail-sauce, Gurken Pickles, Tomaten, Zwiebeln, Pommes frites",
+          "price_ext": 21.5,
+          "price_int": null
+        },
+        {
           "category": "Rock & Roll",
-          "name": "Unser Buffet, dein Menü",
-          "description": "Freitags entscheidest du was auf deinen Teller kommt. Grosser Teller",
-          "price_ext": 24.15,
+          "name": "Gemüse Geschnetzeltes",
+          "description": "Penne, Tomatensauce, Plant Based, Kapern, Tomaten, Broccoli, Oliven und Ruccola",
+          "price_ext": 18.8,
           "price_int": null
         },
         {
           "category": "Heart & Soul",
-          "name": "Unser Buffet, dein Menü",
-          "description": "Freitags entscheidest du was auf deinen Teller kommt. Kleiner Teller",
-          "price_ext": 17.5,
+          "name": "Schweins Pampasteak",
+          "description": "Adobo sauce, mediterranen Kartoffelsalat, türkische Peperoni, Feta",
+          "price_ext": 20.2,
           "price_int": null
         },
         {
@@ -64,7 +71,7 @@
           "price_int": null
         }
       ],
-      "raw_text": "SV RESTAURANT\nMENÜPLAN\nSTANDORTE\nINFORMATIONEN\naccount_circle\nDE\nMenüplan\n1\n2\n3\nMittagsmenü\nNächste Woche\nMo.\n29.06.\nDi.\n30.06.\nMi.\n01.07.\nDo.\n02.07.\nFr.\n03.07.\nPure & Whole\nEn Guete und schöns Wucheend\nRock & Roll\nUnser Buffet, dein Menü\nFreitags entscheidest du was auf deinen Teller kommt. Grosser Teller\nEXT  CHF 24.15\nHeart & Soul\nUnser Buffet, dein Menü\nFreitags entscheidest du was auf deinen Teller kommt. Kleiner Teller\nEXT  CHF 17.50\nGreen & Bowl\nCreate your own bowl\nStellen Sie sich ihre Wunschbowl selbst zusammen\nEXT  CHF 16.80\nfilter_list\nFilter\nMenüplan\nStandort\nclear\nMenüplan\nMittagsmenü\nCatering\nCatering Angebot\n\nOb Sie zum Apéro oder einem feierlichen Anlass einladen – bei uns ist Ihre Verpflegung in besten Händen.\n\nUnser Catering Webshop\nUnser Catering Angebot (PDF)\n\nInformationen\nBistro H12\n\nIhr kulinarischer Ganztages-Treffpunkt\n\nOb für den schwungvollen Start in einen neuen Tag oder den kleinen Hunger zwischendurch - gerne verwöhnen wir Sie rund um die Uhr mit süssen und salzigen Leckereien.\nDas Bistro H12-Team freut sich darauf Ihre Pausen zu versüssen.\n\nÖffnunszeiten\nMo – Do 7.45 Uhr bis 15.00 Uhr\nFr 7.45 Uhr bis 13.00 Uhr\n\nWie nachhaltig ist mein Menü?\n\nMit dem ECO-SCORE® und CO2 Wert pro Menü unterstützen wir unsere Gäste in der Wahl nach dem umweltfreundlichsten Menü in unseren Restaurants.\n\nMehr Informationen\nSV Voucher\n\nOb zum Verschenken oder selbst Einlösen – mit unseren Gutscheinen trifft man immer die richtige Wahl.\n\nMehr Informationen\n1\n2\n3\nÖffnungszeiten\nChreis14\nMo - Fr:\n11:00-13:30 Uhr\nCafeteria BelleVUE\nMo - Fr:\n09:00-14:00 Uhr\nZum Download\nnote\nWochenmenüplan\nGastgeber\nRoman Koberstein\n+41 58 432 45 00\nE-Mail\ncircle@sv-group.ch\nDatenschutzerklärung\n|\nImpressum\nMittagsmenü | Chreis 14, Zürich | Menüplan | SV Restaurant\nCOOKIE-EINSTELLUNGEN"
+      "raw_text": "SV RESTAURANT\nMENÜPLAN\nSTANDORTE\nINFORMATIONEN\naccount_circle\nDE\nMenüplan\n1\n2\n3\nMittagsmenü\nDiese Woche\nMo.\n29.06.\nDi.\n30.06.\nMi.\n01.07.\nDo.\n02.07.\nFr.\n03.07.\nPure & Whole\nStadium Chicken Burger\nBrioche Bun, Cocktail-sauce, Gurken Pickles, Tomaten, Zwiebeln, Pommes frites\nEXT  CHF 21.50\nRock & Roll\nGemüse Geschnetzeltes\nPenne, Tomatensauce, Plant Based, Kapern, Tomaten, Broccoli, Oliven und Ruccola\nEXT  CHF 18.80\nHeart & Soul\nSchweins Pampasteak\nAdobo sauce, mediterranen Kartoffelsalat, türkische Peperoni, Feta\nEXT  CHF 20.20\nGreen & Bowl\nCreate your own bowl\nStellen Sie sich ihre Wunschbowl selbst zusammen\nEXT  CHF 16.80\nfilter_list\nFilter\nMenüplan\nStandort\nclear\nMenüplan\nMittagsmenü\nCatering\nCatering Angebot\n\nOb Sie zum Apéro oder einem feierlichen Anlass einladen – bei uns ist Ihre Verpflegung in besten Händen.\n\nUnser Catering Webshop\nUnser Catering Angebot (PDF)\n\nInformationen\nBistro H12\n\nIhr kulinarischer Ganztages-Treffpunkt\n\nOb für den schwungvollen Start in einen neuen Tag oder den kleinen Hunger zwischendurch - gerne verwöhnen wir Sie rund um die Uhr mit süssen und salzigen Leckereien.\nDas Bistro H12-Team freut sich darauf Ihre Pausen zu versüssen.\n\nÖffnunszeiten\nMo – Do 7.45 Uhr bis 15.00 Uhr\nFr 7.45 Uhr bis 13.00 Uhr\n\nWie nachhaltig ist mein Menü?\n\nMit dem ECO-SCORE® und CO2 Wert pro Menü unterstützen wir unsere Gäste in der Wahl nach dem umweltfreundlichsten Menü in unseren Restaurants.\n\nMehr Informationen\nSV Voucher\n\nOb zum Verschenken oder selbst Einlösen – mit unseren Gutscheinen trifft man immer die richtige Wahl.\n\nMehr Informationen\n1\n2\n3\nÖffnungszeiten\nChreis14\nMo - Fr:\n11:00-13:30 Uhr\nCafeteria BelleVUE\nMo - Fr:\n09:00-14:00 Uhr\nZum Download\nnote\nWochenmenüplan\nGastgeber\nRoman Koberstein\n+41 58 432 45 00\nE-Mail\ncircle@sv-group.ch\nDatenschutzerklärung\n|\nImpressum\nMittagsmenü | Chreis 14, Zürich | Menüplan | SV Restaurant\nCOOKIE-EINSTELLUNGEN"
     },
     {
       "id": "air",
@@ -75,36 +82,36 @@
       "items": [
         {
           "category": "PIZZA OF THE WEEK",
-          "name": "Quattro Formaggi",
+          "name": "Carciofi e Rucola",
           "description": "",
-          "price": 22.9
+          "price": 21.9
         },
         {
           "category": "Daily Menu",
-          "name": "Fitness Fish Bowl mit Melone",
+          "name": "Fitnessteller mit paniertes Schweinsschnitzel",
           "description": "",
           "price": 21.9
         },
         {
           "category": "Daily Grill",
-          "name": "Schweinssteak mit BBQ-Sauce",
+          "name": "Cevapcici mit Tomaten und Rosmarin",
           "description": "",
-          "price": 23.9
+          "price": 20.9
         },
         {
           "category": "Daily Wok",
-          "name": "Gebratener Reis mit Rind",
+          "name": "Massaman-Thai-Curry mit Gemüse vegan",
           "description": "",
-          "price": 23.9
+          "price": 22.9
         },
         {
           "category": "Daily Vegi",
-          "name": "Süsskatoffel-Püree mit Champignonsauce",
+          "name": "Moussaka mit Kartoffeln und Aubergine",
           "description": "",
           "price": 20.9
         }
       ],
-      "raw_text": "PIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan\nBarkarte\nEvents\nStand: 26.06.2026 18:28\nPIZZA\nPIZZA OF THE WEEK\nQuattro Formaggi\n22.90\n \nDaily\nDaily Menu\nFitness Fish Bowl mit Melone\n21.90\n \nGrill\nDaily Grill\nSchweinssteak mit BBQ-Sauce\n23.90\n \nHot Wok\nDaily Wok\nGebratener Reis mit Rind\n23.90\nPIZZA\nMargherita\n17.50\n  Mozzarella, Tomaten, Oregano, Basilikum\nVerdura vegan\n19.50\n  Tomaten, Gemüse, Oregano\nDiavolo \n19.50\n Mozzarella, Tomaten, Chorizo, Chili\nTonno oder Pollo\n19.50\n  Mozzarella, Tomaten, Thunfisch oder Poulet, Zwiebeln\nProsciutto & Funghi\n19.50\n  Mozzarella, Tomaten, Vorderschinken, Pilze\nSalsiccia\n20.50\n  Mozzarella, Tomaten, Salsiccia, Speck, Zwiebeln\nHawaii\n20.50\n  Mozzarella, Tomaten, Vorderschinken, Ananas\nPIZZA OF THE WEEK\nQuattro Formaggi\n22.90\n  Mozzarella, Tomaten, Gorgonzola, Ziegenkäse, Parmesan, Chili\nSPAGHETTI\nNapoli\n17.90\n \nBolognese\n18.90\n \nCarbonara\n18.90\n \nAIR Salat\n3.90\n \nDaily\nDaily Menu\nFitness Fish Bowl mit Melone\n21.90\n  Merlanfilet, fritiert, Sommersalat, Tartarsauce, Melone\nDaily Vegi\nSüsskatoffel-Püree mit Champignonsauce\n20.90\n  Süsskartoffel, Champignon, Rahm und Zwiebeln\nAIR Salat\n3.90\n \nKartoffelsuppe mit Croûtons\n3.90\n \nGrill\nSt. Galler OLMA-Bratwurst\n18.90\n  Kalb, Schwein, Zwiebelsauce, 1 Beilage nach Wahl\nPaniertes Schweinsschnitzel\n19.90\n  Schwein, Pommes frites\nPouletbrust\n19.90\n  Poulet, Kräuterbutter, 1 Beilage nach Wahl\nRindsmedaillon 160g\n29.90\n  Rind, Kräuterbutter, Pommes frites\nEgli-Knusperli \n22.90\n Eglifilet, Tatarsauce, Pommes frites\nChicken Nuggets \n17.90\n 6 Chicken Nuggets, Pommes frites mit 2 Dips\nDaily Grill\nSchweinssteak mit BBQ-Sauce\n23.90\n  Schwein, Pommes frites, BBQ-Sauce\nGRILL OF THE WEEK\nAIR Burger Cheddar\n20.90\n  Rind, Cheddar, Züri Frites, Ketchup\nPommes frites\n0.00\n \noder Beilage vom Buffet bis 200 g frei, danach je 100 gr 4.90\n0.00\n \nAIR Salat\n3.90\n \nHot Wok\nTom Kha Gai\nklein   12.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\nTom Kha Gai\ngross   15.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\n3x Spring Rolls Veggie mit Basmatireis\n13.90\n  Karotten, Chinakohl, Lauch, Koriander, Sojasauce\n3x Poulet-Satay mit Basmatireis\n13.90\n  Poulet, Sweet&Sour Sauce\nSweet & Sour Poulet \n19.90\n Poulet, Gemüse, Ananas, Jasminreis\nDaily Wok\nGebratener Reis mit Rind\n23.90\n  Rind, Ei, Jasminreis, Gemüse, Soja\nWEEK WOK\nRotes Thai-Curry mit Crevetten\n23.90\n  Crevetten, Curry, Jasminreis, Gemüse\nInfo\nAirporters\nPizza of the week\nQuattro Formaggi\n14.90\n  Mozzarella, Tomaten, Gorgonzola, Ziegenkäse, Parmesan, Chili\nDaily Menu\nFitness Fish Bowl mit Melone\n14.90\n  Merlanfilet, fritiert, Sommersalat, Tartarsauce, Melone\nDaily Veggie\nSüsskatoffel-Püree mit Champignonsauce\n13.90\n  Süsskartoffel, Champignon, Rahm und Zwiebeln\nDAILY GRILL\nSchweinssteak mit BBQ-Sauce\n15.90\n  Schwein, Pommes frites, BBQ-Sauce\nGRILL OF THE WEEK\nAIR Burger Cheddar\n14.90\n  Rind, Cheddar, Züri Frites, Ketchup\nDaily Wok\nGebratener Reis mit Rind\n15.90\n  Rind, Ei, Jasminreis, Gemüse, Soja\nWOK OF THE WEEK\nRotes Thai-Curry mit Crevetten\n14.90\n  Crevetten, Curry, Jasminreis, Gemüse\nPIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan"
+      "raw_text": "PIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan\nBarkarte\nEvents\nStand: 29.06.2026 19:49\nPIZZA\nPIZZA OF THE WEEK\nCarciofi e Rucola\n21.90\n \nDaily\nDaily Menu\nFitnessteller mit paniertes Schweinsschnitzel\n21.90\n \nGrill\nDaily Grill\nCevapcici mit Tomaten und Rosmarin\n20.90\n \nHot Wok\nDaily Wok\nMassaman-Thai-Curry mit Gemüse vegan\n22.90\nPIZZA\nMargherita\n17.50\n  Mozzarella, Tomaten, Oregano, Basilikum\nVerdura vegan\n19.50\n  Tomaten, Gemüse, Oregano\nDiavolo \n19.50\n Mozzarella, Tomaten, Chorizo, Chili\nTonno oder Pollo\n19.50\n  Mozzarella, Tomaten, Thunfisch oder Poulet, Zwiebeln\nProsciutto & Funghi\n19.50\n  Mozzarella, Tomaten, Vorderschinken, Pilze\nSalsiccia\n20.50\n  Mozzarella, Tomaten, Salsiccia, Speck, Zwiebeln\nHawaii\n20.50\n  Mozzarella, Tomaten, Vorderschinken, Ananas\nPIZZA OF THE WEEK\nCarciofi e Rucola\n21.90\n  Mozzarella, Cherrytomaten, Artischocken, Rucola\nSPAGHETTI\nNapoli\n17.90\n \nBolognese\n18.90\n \nCarbonara\n18.90\n \nAIR Salat\n3.90\n \nDaily\nDaily Menu\nFitnessteller mit paniertes Schweinsschnitzel\n21.90\n  Schwein, Salat, Melonen, Dressing\nDaily Vegi\nMoussaka mit Kartoffeln und Aubergine\n20.90\n  Kartoffeln, Aubergine, Tomaten, Feta, Mozzarella\nAIR Salat\n3.90\n \nGazpacho mit Croûtons\n3.90\n \nGrill\nSt. Galler OLMA-Bratwurst\n18.90\n  Kalb, Schwein, Zwiebelsauce, 1 Beilage nach Wahl\nPaniertes Schweinsschnitzel\n19.90\n  Schwein, Pommes frites\nPouletbrust\n19.90\n  Poulet, Kräuterbutter, 1 Beilage nach Wahl\nRindsmedaillon 160g\n29.90\n  Rind, Kräuterbutter, Pommes frites\nEgli-Knusperli \n22.90\n Eglifilet, Tatarsauce, Pommes frites\nChicken Nuggets \n17.90\n 6 Chicken Nuggets, Pommes frites mit 2 Dips\nDaily Grill\nCevapcici mit Tomaten und Rosmarin\n20.90\n  Rind, Lamm, Tomatensauce, Pommes frites, Rosmarin\nGRILL OF THE WEEK\nCordon bleu vom Poulet\n21.90\n  Poulet, Schwein, Käse, Schinken, Pommes frites\nPommes frites\n0.00\n \noder Beilage vom Buffet bis 200 g frei, danach je 100 gr 4.90\n0.00\n \nAIR Salat\n3.90\n \nHot Wok\nTom Kha Gai\nklein   12.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\nTom Kha Gai\ngross   15.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\n3x Spring Rolls Veggie mit Basmatireis\n13.90\n  Karotten, Chinakohl, Lauch, Koriander, Sojasauce\n3x Poulet-Satay mit Basmatireis\n13.90\n  Poulet, Sweet&Sour Sauce\nSweet & Sour Poulet \n19.90\n Poulet, Gemüse, Ananas, Jasminreis\nDaily Wok\nMassaman-Thai-Curry mit Gemüse vegan\n22.90\n  Curry, Gemüse, Jasminreis\nWEEK WOK\nGrünes Thai-Curry mit Poulet\n22.90\n  Poulet, Jasminreis, Gemüse\nInfo\nAirporters\nPizza of the week\nCarciofi e Rucola\n14.90\n  Mozzarella, Cherrytomaten, Artischocken, Rucola\nDaily Menu\nFitnessteller mit paniertes Schweinsschnitzel\n14.90\n  Schwein, Salat, Melonen, Dressing\nDaily Veggie\nMoussaka mit Kartoffeln und Aubergine\n13.90\n  Kartoffeln, Aubergine, Tomaten, Feta, Mozzarella\nDAILY GRILL\nCevapcici mit Tomaten und Rosmarin\n14.90\n  Rind, Lamm, Tomatensauce, Pommes frites, Rosmarin\nGRILL OF THE WEEK\nCordon bleu vom Poulet\n14.90\n  Poulet, Schwein, Käse, Schinken, Pommes frites\nDaily Wok\nMassaman-Thai-Curry mit Gemüse vegan\n13.90\n  Curry, Gemüse, Jasminreis\nWOK OF THE WEEK\nGrünes Thai-Curry mit Poulet\n14.90\n  Poulet, Jasminreis, Gemüse\nPIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan"
     },
     {
       "id": "babel",
@@ -250,6 +257,13 @@
       "error": null,
       "items": [
         {
+          "category": "Tageshit Montag bis Freitag von 11.30 Uhr - 18 Uhr",
+          "name": "Herkunft Fisch und Fleisch: Poulet - CH, Rind - CH, Lamm - NZ*, Kalb - CH, Schwein - CH, Garnelen - VN, Crevetten - Chile, Lachs - SCO, Zander - CH. Unsere Backwaren stammen aus der Schweiz (Burgers & Sandwiches) und EU (Wraps). Über Zutaten in unseren Gerichten, die Allergien oder Intoleranzen auslösen können, informieren Sie unsere Mitarbeitenden auf Anfrage gerne. *Kann mit nicht hormonellen Leistungsförderern, wie Antibiotika, erzeugt worden sein. Alle Preise sind in Schweizer Franken inklusive 8.1% MwSt.",
+          "description": "WÖCHENTLICH VEGAN",
+          "price": 25.0,
+          "price_with_salad": null
+        },
+        {
           "category": "Wöchentlich vegan",
           "name": "Rotes Planted Curry",
           "description": "Tomaten, Trauben, gebratene Auberginen",
@@ -257,14 +271,14 @@
           "price_with_salad": 29.0
         },
         {
-          "category": "Tageshit FREITAG, 03.07.",
-          "name": "Gebratenes Forellenfilet",
-          "description": "Petersilienkartoffeln, Rahmspinat",
+          "category": "Tageshit MONTAG, 29.06.",
+          "name": "Calamarata pasta",
+          "description": "Calamari, Kirschtomaten, Basilikum",
           "price": 25.0,
           "price_with_salad": 29.0
         }
       ],
-      "raw_text": "Sprache\n+41445974666\nTÄGLICHE MITTAGS-HITS\nBBQ MENU\nSPEISEKARTE\nKINDER MENU\nBARKARTE\nGRUPPENMENU - RACLETTE\nGRUPPEN MENU - BURGER\nMontag bis Freitag von 11.30 Uhr - 18 Uhr\n\nHerkunft Fisch und Fleisch: Poulet - CH, Rind - CH, Lamm - NZ*, Kalb - CH, Schwein - CH, Garnelen - VN, Crevetten - Chile, Lachs - SCO, Zander - CH. Unsere Backwaren stammen aus der Schweiz (Burgers & Sandwiches) und EU (Wraps). Über Zutaten in unseren Gerichten, die Allergien oder Intoleranzen auslösen können, informieren Sie unsere Mitarbeitenden auf Anfrage gerne. *Kann mit nicht hormonellen Leistungsförderern, wie Antibiotika, erzeugt worden sein. Alle Preise sind in Schweizer Franken inklusive 8.1% MwSt.\n\nWÖCHENTLICH VEGAN\nRotes Planted Curry\n\nTomaten, Trauben, gebratene Auberginen\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nMONTAG, 29.06.\nRindsragout\n\nKartoffelstock, Sommergemüse, Gremolata\n\n25.00\nCHF\n• with salad\n29.00\nCHF\nDIENSTAG, 30.06.\nCalamarata Pasta\n\nCalamari, Kirschtomaten, Basilikum\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nMITTWOCH, 01.07.\nGebratene Pouletbrust\n\nRote Currysauce, Reis, Mango, Chili, Koriander\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nDONNERSTAG, 02.07.\nPenne mit Tomaten-Auberginen Sauce\n\nZucchini, Paprika, Oliven\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nFREITAG, 03.07.\nGebratenes Forellenfilet\n\nPetersilienkartoffeln, Rahmspinat\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nLassen Sie uns helfen.\n\nWenn Sie Allergene oder Ernährungseinschränkungen haben, teilen Sie dies bitte unserem Personal mit."
+      "raw_text": "Sprache\n+41445974666\nTÄGLICHE MITTAGS-HITS\nBBQ MENU\nSPEISEKARTE\nKINDER MENU\nBARKARTE\nGRUPPENMENU - RACLETTE\nGRUPPEN MENU - BURGER\nMontag bis Freitag von 11.30 Uhr - 18 Uhr\n\nHerkunft Fisch und Fleisch: Poulet - CH, Rind - CH, Lamm - NZ*, Kalb - CH, Schwein - CH, Garnelen - VN, Crevetten - Chile, Lachs - SCO, Zander - CH. Unsere Backwaren stammen aus der Schweiz (Burgers & Sandwiches) und EU (Wraps). Über Zutaten in unseren Gerichten, die Allergien oder Intoleranzen auslösen können, informieren Sie unsere Mitarbeitenden auf Anfrage gerne. *Kann mit nicht hormonellen Leistungsförderern, wie Antibiotika, erzeugt worden sein. Alle Preise sind in Schweizer Franken inklusive 8.1% MwSt.\n\nWÖCHENTLICH VEGAN\nRotes Planted Curry\n\nTomaten, Trauben, gebratene Auberginen\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nMONTAG, 29.06.\nCalamarata pasta\n\nCalamari, Kirschtomaten, Basilikum\n\n25.00\nCHF\n• with salad\n29.00\nCHF\nDIENSTAG, 30.06.\nRindsragout\n\nKartoffelstock, Sommergemüse, Gremolata\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nMITTWOCH, 01.07.\nGebratene Pouletbrust\n\nRote Currysauce, Reis, Mango, Chili, Koriander\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nDONNERSTAG, 02.07.\nPenne mit Tomaten-Auberginen Sauce\n\nZucchini, Paprika, Oliven\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nFREITAG, 03.07.\nGebratenes Forellenfilet\n\nPetersilienkartoffeln, Rahmspinat\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nLassen Sie uns helfen.\n\nWenn Sie Allergene oder Ernährungseinschränkungen haben, teilen Sie dies bitte unserem Personal mit."
     },
     {
       "id": "leons_loft",
@@ -281,15 +295,15 @@
         },
         {
           "category": "Fisch",
-          "name": "Lachs auf grilliertem Lattich",
+          "name": "Kreolischer Reis mit gegrilltem Fisch",
           "description": "",
           "price_text": "28"
         },
         {
           "category": "Vegetarisch",
-          "name": "Panzanella",
+          "name": "Gegrillter Pfirsich Salat",
           "description": "",
-          "price_text": "21"
+          "price_text": "25.5"
         },
         {
           "category": "Salad & Bowls",
@@ -305,12 +319,6 @@
         },
         {
           "category": "Salad & Bowls",
-          "name": "Randen-Carpaccio",
-          "description": "",
-          "price_text": "24.5"
-        },
-        {
-          "category": "Salad & Bowls",
           "name": "Small Green Salad",
           "description": "",
           "price_text": "9.5"
@@ -323,27 +331,33 @@
         },
         {
           "category": "Soup",
-          "name": "Gazpacho",
+          "name": "Kalt-Schale",
           "description": "",
-          "price_text": "12"
+          "price_text": "12.5"
         },
         {
-          "category": "Vegetarisch",
-          "name": "Focaccia Tomate & Mozzarella",
+          "category": "Sommerlich leicht",
+          "name": "Randen-Carpaccio",
           "description": "",
           "price_text": "24.5"
         },
         {
-          "category": "Fleisch",
-          "name": "Carpaccio",
+          "category": "Sommerlich leicht",
+          "name": "Beef-Carpaccio",
           "description": "",
           "price_text": "20"
         },
         {
-          "category": "Fisch",
-          "name": "Spaghetti mit Pulpo",
+          "category": "Sommerlich leicht",
+          "name": "Spaghetti mit Shrimp",
           "description": "",
           "price_text": "27"
+        },
+        {
+          "category": "Vegetarisch",
+          "name": "Asia-Sommer-Roll",
+          "description": "",
+          "price_text": "24"
         },
         {
           "category": "Burger",
@@ -359,9 +373,9 @@
         },
         {
           "category": "Burger",
-          "name": "Portobello",
+          "name": "The Vegetarian Burger - Falafel",
           "description": "",
-          "price_text": "23"
+          "price_text": "21"
         },
         {
           "category": "More nice Bites",
@@ -401,25 +415,31 @@
         },
         {
           "category": "Dessert",
+          "name": "Semifreddo",
+          "description": "",
+          "price_text": "8"
+        },
+        {
+          "category": "Dessert",
+          "name": "Home Made Kuchen ab",
+          "description": "",
+          "price_text": "5.5"
+        },
+        {
+          "category": "Dessert",
           "name": "Ice Cream",
           "description": "",
           "price_text": "5"
         },
         {
           "category": "Dessert",
-          "name": "Erdbeeren",
+          "name": "Falafel auf Wassermelonensalsa",
           "description": "",
-          "price_text": "8.5"
-        },
-        {
-          "category": "Dessert",
-          "name": "Panna Cotta mit Aprikosen-Kompott",
-          "description": "",
-          "price_text": "10.5"
+          "price_text": "21"
         }
       ],
-      "raw_text": "Lunch\nWeekly-Lunch\nPasta\nBurrata-Ravioli 26\nPasta gefüllt mit Burrata und Ricotta an\nofengerösteter Cherry-Tomatensauce\nFisch\nLachs auf grilliertem Lattich 28\nLachssteak auf grilliertem Lattich, mit\nWassermelonen-Salsa, dazu Bulgur\nVegetarisch\nPanzanella 21\nklassischer Brotsalat (Croutons) mit Tomaten,\nGurken, roten Zwiebeln an feiner Vinaigrette\nAdd on's zu Panzanella\nBurrata + 7.5\nSalad & Bowls\nSuper Green Power Bowl 29\nBlattsalate mit Avocado, Edamame, wildem\nBrokkoli, Gurke, Kräuter-Quinoa, Crunchy\n(Hanfsamen, Buchweizen, Sesam), Pink\nTahini und Sesam-Wasabi-Dressing\nCaesar Salad 19\nLattich an Caesar-Dressing mit Speck,\nParmesan-Flocken, Croûtons\nAdd on's Caesar Salad\nChicken Breast + 9 Salmon + 10\nCrevetten + 10\nRanden-Carpaccio 24.5\nRanden aufgeschnitten an Vinaigrette, mit\nKräutern, Baumnüssen und Burrata. Serviert\nmit Brot.\nSmall Green Salad 9.5\nBlattsalate, Dressing, Crunchy\n(Hanfsamen, Buchweizen, Sesam)\nSoup\nTagessuppe 12.5\nGazpacho 12\nrote oder grüne Gazpacho - ask your waiter\nÄnderungen (Preise und Angebot) vorbehalten | Alle\nEuropa FAO05 | Pangasius, Crevetten: W-Zentralpazifik\n& Dine\nSommerlich leicht\nVegetarisch\nFocaccia Tomate & Mozzarella 24.5\nHome Made Focaccia gefüllt mit Tomaten,\nMozzarella di Buafala und Basislikum, dazu\ngrüner Salat\nFleisch\nCarpaccio 20\nRindfleisch, Olivenöl, Kapern, pickled red\nOnion, mit etwas Parmesan, dazu ein\nStück Home Made Focaccia\nFisch\nSpaghetti mit Pulpo 27\nPasta an Sofrito mit Pulpo, Oliven, Cherrytomaten\nund Stangensellerie. Mit etwas Zitrone, frischem\nKräuteröl und etwas Parmesan verfeinert.\nBurger\nClassic Burger 21\nHomemade Rindfleisch-Patty in Brioche-Bun mit\nZwiebelconfit, Lettuce, Hausketchup, Senf-Essig-\ngurken-Relish\nBacon & Cheese Burger 24\nHomemade Rindfleisch-Patty in Brioche-Bun mit\nCheddar, Speck, Zwiebelconfit, Lettuce, Haus-\nketchup, Tomaten und Senf-Essiggurken-Relish\nThe Vegetarian Burger\nPortobello 23\nBrioche Bun, Portobello-Pilze, Humus,\nZwiebelkonfit, Mayo und Kräutersauce\nAdd on's zu Burger\nTartufo Fries + 13 Fries + 8\nChili Cheese Fries + 13 Salad + 9.5\nFried Egg + 4 Bacon + 4\nPreise in CHF, inkl. 8.1% MwSt | Fleisch: Rind-, Kalb-, Schweinefleisch,\nFAO71 | Backwaren: Hausbrot, Brioche Bun: CH |\nMore nice Bites\nKnuspriges Schnitzel 36\nSchweinefleisch (CH) in Panade (Eier,\nMehl, Brot) dazu Fries und Preiselbeeren\nCordon Bleu 39\nSchweinefleisch (CH) gefüllt mit Schinken\nund Käse, paniert (Eier, Mehl, Brot)\ndazu Fries\nTagliata 39\nRindshuft (CH, 200g) rosa gebraten und auf-\ngeschnitten, auf Rucola serviert mit etwas\nParmesan\nLeon's Tatar\nklein | gross 29 | 35\nRindfleisch, Gewürz-Sauce, Salsa verde, Brunnen-\nkresse, Kapern, Brot, Butter\nFried Chicken 26\nPoulet, Southern Panade, Fries und Hausketchup\nShepherd's Pie 24\nRindshackfleisch mit Gemüse in kräftiger\nSauce, bedeckt mit feinem Kartoffelstock\nund mit Käse knusprig überbacken\nDessert\nIce Cream 5\nvon Sorbeto, im Becher\nVanilla, Chocolat, Fior di Latte, Pistachio, Mocca,\nErdbeer-Sorbet\nErdbeeren 8.5\nFrische Erdbeeren, leicht\nmariniert (alkoh.)\nPanna Cotta mit\nAprikosen-Kompott 10.5\nPanna Cotta mit frischem\nAprikosen-Kompott\nPoulet: CH | Lachs: NO-Atlantik FAO27 | Lachsforelle:\nToastbrot: D | weitere Fragen: ask your waiter",
-      "pdf_url": "https://www.leonsloft.ch/wp-content/uploads/Lunch_Dine_Woche_26_26_DE.pdf"
+      "raw_text": "Lunch\nWeekly-Lunch\nPasta\nBurrata-Ravioli 26\nPasta gefüllt mit Burrata und Ricotta an\nofengerösteter Cherry-Tomatensauce\nFisch\nKreolischer Reis mit\ngegrilltem Fisch 28\nKreolischer Reis, mit Gewürzen, dazu gegrillter\nFisch (Buntbarsch), verfeinert mit Ananas und\nPfirsich\nVegetarisch\nGegrillter Pfirsich Salat 25.5\nPfirsich vom Grill, auf knackigem Salat mit Feln-\nchel über Bulgur, serviert mit Cottage Cheese\nSalad & Bowls\nSuper Green Power Bowl 29\nBlattsalate mit Avocado, Edamame, wildem\nBrokkoli, Gurke, Kräuter-Quinoa, Crunchy\n(Hanfsamen, Buchweizen, Sesam), Pink\nTahini und Sesam-Wasabi-Dressing\nCaesar Salad 19\nLattich an Caesar-Dressing mit Speck,\nParmesan-Flocken, Croûtons\nAdd on's Caesar Salad\nChicken Breast + 9 Salmon + 10\nCrevetten + 10\nSmall Green Salad 9.5\nBlattsalate, Dressing, Crunchy\n(Hanfsamen, Buchweizen, Sesam)\nSoup\nTagessuppe 12.5\nKalt-Schale 12.5\nask your waiter\nÄnderungen (Preise und Angebot) vorbehalten | Alle\nEuropa FAO05 | Pangasius, Crevetten: W-Zentralpazifik\n& Dine\nSommerlich leicht\nCarpaccio\nRanden-Carpaccio 24.5\nRanden aufgeschnitten an Vinaigrette, mit\nK r ä u t ern, Baumnüssen und Burrata. Serviert mit\nB r o t.\nBeef-Carpaccio 20\nRindfleisch, Olivenöl, Kapern, pickled red\nOnion, mit etwas Parmesan, dazu ein\nStück Home Made Focaccia\nSea Food\nSpaghetti mit Shrimp 27\nPasta mit Crevetten, Oliven, grünen Bohnen und\nTomaten, verfeinert mit feiner Limonen-Sauce\nVegetarisch\nAsia-Sommer-Roll 24\nAsiatische Gemüsemischung (Mungoboh-\nnen, Karotten, Gurken, Shiitake) asiatisch\nmariniert, in Reispapier gerollt, dazu ser-\nviert Kräuter-Glasnudelsalat\nBurger\nClassic Burger 21\nHomemade Rindfleisch-Patty in Brioche-Bun mit\nZwiebelconfit, Lettuce, Hausketchup, Senf-Essig-\ngurken-Relish\nBacon & Cheese Burger 24\nHomemade Rindfleisch-Patty in Brioche-Bun mit\nCheddar, Speck, Zwiebelconfit, Lettuce, Haus-\nketchup, Tomaten und Senf-Essiggurken-Relish\nThe Vegetarian Burger - Falafel 21\nBrioche Bun, Lettuce, Sour Cream, Falafel, und\nfruchtigen Plum-Chutney\nAdd on's zu Burger\nTartufo Fries + 13 Fries + 8\nChili Cheese Fries + 13 Salad + 9.5\nFried Egg + 4 Bacon + 4\nPreise in CHF, inkl. 8.1% MwSt | Fleisch: Rind-, Kalb-, Schweinefleisch,\nFAO71 | Backwaren: Hausbrot, Brioche Bun: CH |\nMore nice Bites\nKnuspriges Schnitzel 36\nSchweinefleisch (CH) in Panade (Eier,\nMehl, Brot) dazu Fries und Preiselbeeren\nCordon Bleu 39\nSchweinefleisch (CH) gefüllt mit Schinken\nund Käse, paniert (Eier, Mehl, Brot)\ndazu Fries\nTagliata 39\nRindshuft (CH, 200g) rosa gebraten und auf-\ngeschnitten, auf Rucola serviert mit etwas\nParmesan\nLeon's Tatar\nklein | gross 29 | 35\nRindfleisch, Gewürz-Sauce, Salsa verde, Brunnen-\nkresse, Kapern, Brot, Butter\nFried Chicken 26\nPoulet, Southern Panade, Fries und Hausketchup\nShepherd's Pie 24\nRindshackfleisch mit Gemüse in kräftiger\nSauce, bedeckt mit feinem Kartoffelstock\nund mit Käse knusprig überbacken\nDessert\nSemifreddo 8\nVanille und Himbeeren\nHome Made Kuchen ab 5.5\nFrisch, täglich wechselnd\nIce Cream 5\nvon Sorbeto, im Becher\nVanilla, Chocolat, Fior di Latte, Pistachio, Mocca,\nErdbeer-Sorbet\nInsider Deal – exklusiv mit App\nFalafel auf Wassermelonensalsa 21\nFalafel mit Buchweizen, Wassermelonen, Lattich\nGewürze, Sour Cream. Dazu ein Getränk nach Wahl\n(33 cl): Cola, Cola Zero, Apfelschorle oder Gazosa.\nPoulet: CH | Lachs: NO-Atlantik FAO27 | Lachsforelle:\nToastbrot: D | weitere Fragen: ask your waiter",
+      "pdf_url": "https://www.leonsloft.ch/wp-content/uploads/Lunch_Dine_Woche_27_26_DE.pdf"
     }
   ]
 }
