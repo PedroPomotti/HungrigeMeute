@@ -69,6 +69,39 @@ def _f(s: str) -> float:
     return float(s.replace(",", "."))
 
 
+# --- veggie / non-veggie classification ------------------------------------
+# Written into every item in menus.json. Best-effort heuristic: an explicit
+# vegetarian/vegan marker wins; otherwise any meat/fish term marks non-veggie;
+# otherwise a recognised vegetarian food marks veggie; else None (unknown).
+_VEG_EXPLICIT = ("vegan", "vegetarisch", "vegetarian", "veggie", "planted",
+                 "plant-based", "plantbased", "falafel", "tofu")
+_MEAT_FISH = ("rind", "beef", "poulet", "huhn", "hähnchen", "chicken", "pollo",
+              "schwein", "pork", "speck", "bacon", "lachs", "salmon", "fisch",
+              "fish", "thunfisch", "tuna", "crevett", "shrimp", "garnel",
+              "pulpo", "octopus", "tatar", "schnitzel",
+              "cordon bleu", "ghacket", "hackfleisch", "shawarma", "medaillon",
+              "souvlaki", "wurst", "schinken", "kalb", "veal", "lamm", "lamb",
+              "ente", "duck", "pastrami", "salami", "steak", "vindaloo",
+              "fleisch", "burger", "meat", "prosciutto")
+_VEG_FOOD = ("mozzarella", "burrata", "hummus", "gemüse", "wähe", "quinoa",
+             "edamame", "focaccia", "panzanella", "gazpacho", "halloumi",
+             "caprese", "aubergin", "pfirsich", "randen", "portobello",
+             "tomaten", "pilz", "ravioli")
+
+
+def classify_veggie(name: str, description: str = "", category: str = "") -> bool | None:
+    t = f"{category} {name} {description}".lower()
+    if any(k in t for k in _VEG_EXPLICIT):
+        return True
+    if any(k in t for k in _MEAT_FISH):
+        return False
+    if "dessert" in category.lower():
+        return True
+    if any(k in t for k in _VEG_FOOD):
+        return True
+    return None
+
+
 # ----------------------------------------------------------------------------
 # SV (Stopover, Chreis 14)
 # ----------------------------------------------------------------------------
@@ -365,6 +398,10 @@ def scrape_one(context, r: dict, today: dt.date) -> dict:
         raw = (page.evaluate("() => document.body.innerText") or "").strip()
         res["raw_text"] = raw
         res["items"] = PARSERS.get(r["type"], lambda t, d: [])(raw, today)
+        for it in res["items"]:
+            it["veggie"] = classify_veggie(it.get("name", ""),
+                                           it.get("description", ""),
+                                           it.get("category", ""))
         if not res["items"] and not raw:
             res["status"] = "empty"
         elif not res["items"]:
@@ -402,6 +439,10 @@ def scrape_leons(context, page, r: dict, res: dict) -> dict:
         text = extract_pdf_text(resp.body())
         res["raw_text"] = text.strip()
         res["items"] = parse_leons(text)
+        for it in res["items"]:
+            it["veggie"] = classify_veggie(it.get("name", ""),
+                                           it.get("description", ""),
+                                           it.get("category", ""))
         if not res["items"] and not res["raw_text"]:
             res["status"] = "empty"
         elif not res["items"]:
