@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-13T18:57:47+02:00",
-  "date": "2026-07-13",
-  "weekday": "Montag",
+  "generated_at": "2026-07-14T14:22:20+02:00",
+  "date": "2026-07-14",
+  "weekday": "Dienstag",
   "timezone": "Europe/Zurich",
   "restaurants": [
     {
@@ -47,27 +47,27 @@
       "items": [
         {
           "category": "Pure & Whole",
-          "name": "Cesar Bowl",
-          "description": "Cesar Salat Pouletbrust, Speck, Ei, Parmesan, knusprigem Brot, Live Cooking",
-          "price_ext": 20.8,
+          "name": "Schweins Braten",
+          "description": "Schweins Hals, Pfeffer Sauce, Risotto, Ofen Broccoli, Fenchelsamen",
+          "price_ext": 19.8,
           "price_int": null,
           "veggie": false
         },
         {
           "category": "Rock & Roll",
-          "name": "Kalbs-Geschnetzeltes \"Mediterraneo\"",
-          "description": "Balsamicosauce, Fussili, provenzialisches Gemüse",
-          "price_ext": 22.2,
+          "name": "Bami Goreng",
+          "description": "Indonesisches Nudelgericht Mungosprossen, Chinakohl, Peperoni, Frühlingszwiebeln",
+          "price_ext": 18.8,
           "price_int": null,
-          "veggie": false
+          "veggie": null
         },
         {
           "category": "Heart & Soul",
-          "name": "Gemüsetätschli",
-          "description": "Randen Gnocchi, Randen, Spinat, Joghurt, Minze, Kreuzkümmel",
-          "price_ext": 17.8,
+          "name": "Gebackene Poulet Brust",
+          "description": "Kräuterbutter, Quinoa, Zuchetti Gemüse",
+          "price_ext": 22.2,
           "price_int": null,
-          "veggie": true
+          "veggie": false
         },
         {
           "category": "Green & Bowl",
@@ -78,7 +78,7 @@
           "veggie": null
         }
       ],
-      "raw_text": "SV RESTAURANT\nMENÜPLAN\nSTANDORTE\nINFORMATIONEN\naccount_circle\nDE\nMenüplan\n1\n2\n3\nMittagsmenü\nDiese Woche\nMo.\n13.07.\nDi.\n14.07.\nMi.\n15.07.\nDo.\n16.07.\nFr.\n17.07.\nPure & Whole\nCesar Bowl\nCesar Salat Pouletbrust, Speck, Ei, Parmesan, knusprigem Brot, Live Cooking\nEXT  CHF 20.80\nRock & Roll\nKalbs-Geschnetzeltes \"Mediterraneo\"\nBalsamicosauce, Fussili, provenzialisches Gemüse\nEXT  CHF 22.20\nHeart & Soul\nGemüsetätschli\nRanden Gnocchi, Randen, Spinat, Joghurt, Minze, Kreuzkümmel\nEXT  CHF 17.80\nGreen & Bowl\nCreate your own bowl\nStellen Sie sich ihre Wunschbowl selbst zusammen\nEXT  CHF 16.80\nfilter_list\nFilter\nMenüplan\nStandort\nclear\nMenüplan\nMittagsmenü\nCatering\nCatering Angebot\n\nOb Sie zum Apéro oder einem feierlichen Anlass einladen – bei uns ist Ihre Verpflegung in besten Händen.\n\nUnser Catering Webshop\nUnser Catering Angebot (PDF)\n\nInformationen\nBistro H12\n\nIhr kulinarischer Ganztages-Treffpunkt\n\nOb für den schwungvollen Start in einen neuen Tag oder den kleinen Hunger zwischendurch - gerne verwöhnen wir Sie rund um die Uhr mit süssen und salzigen Leckereien.\nDas Bistro H12-Team freut sich darauf Ihre Pausen zu versüssen.\n\nÖffnunszeiten\nMo – Do 7.45 Uhr bis 15.00 Uhr\nFr 7.45 Uhr bis 13.00 Uhr\n\nWie nachhaltig ist mein Menü?\n\nMit dem ECO-SCORE® und CO2 Wert pro Menü unterstützen wir unsere Gäste in der Wahl nach dem umweltfreundlichsten Menü in unseren Restaurants.\n\nMehr Informationen\nSV Voucher\n\nOb zum Verschenken oder selbst Einlösen – mit unseren Gutscheinen trifft man immer die richtige Wahl.\n\nMehr Informationen\n1\n2\n3\nÖffnungszeiten\nChreis14\nMo - Fr:\n11:00-13:30 Uhr\nCafeteria BelleVUE\nMo - Fr:\n09:00-14:00 Uhr\nZum Download\nnote\nWochenmenüplan\nGastgeber\nRoman Koberstein\n+41 58 432 45 00\nE-Mail\ncircle@sv-group.ch\nDatenschutzerklärung\n|\nImpressum\nMittagsmenü | Chreis 14, Zürich | Menüplan | SV Restaurant\nCOOKIE-EINSTELLUNGEN"
+      "raw_text": "SV RESTAURANT\nMENÜPLAN\nSTANDORTE\nINFORMATIONEN\naccount_circle\nDE\nMenüplan\n1\n2\n3\nMittagsmenü\nDiese Woche\nMo.\n13.07.\nDi.\n14.07.\nMi.\n15.07.\nDo.\n16.07.\nFr.\n17.07.\nPure & Whole\nSchweins Braten\nSchweins Hals, Pfeffer Sauce, Risotto, Ofen Broccoli, Fenchelsamen\nEXT  CHF 19.80\nRock & Roll\nBami Goreng\nIndonesisches Nudelgericht Mungosprossen, Chinakohl, Peperoni, Frühlingszwiebeln\nEXT  CHF 18.80\nHeart & Soul\nGebackene Poulet Brust\nKräuterbutter, Quinoa, Zuchetti Gemüse\nEXT  CHF 22.20\nGreen & Bowl\nCreate your own bowl\nStellen Sie sich ihre Wunschbowl selbst zusammen\nEXT  CHF 16.80\nfilter_list\nFilter\nMenüplan\nStandort\nclear\nMenüplan\nMittagsmenü\nCatering\nCatering Angebot\n\nOb Sie zum Apéro oder einem feierlichen Anlass einladen – bei uns ist Ihre Verpflegung in besten Händen.\n\nUnser Catering Webshop\nUnser Catering Angebot (PDF)\n\nInformationen\nBistro H12\n\nIhr kulinarischer Ganztages-Treffpunkt\n\nOb für den schwungvollen Start in einen neuen Tag oder den kleinen Hunger zwischendurch - gerne verwöhnen wir Sie rund um die Uhr mit süssen und salzigen Leckereien.\nDas Bistro H12-Team freut sich darauf Ihre Pausen zu versüssen.\n\nÖffnunszeiten\nMo – Do 7.45 Uhr bis 15.00 Uhr\nFr 7.45 Uhr bis 13.00 Uhr\n\nWie nachhaltig ist mein Menü?\n\nMit dem ECO-SCORE® und CO2 Wert pro Menü unterstützen wir unsere Gäste in der Wahl nach dem umweltfreundlichsten Menü in unseren Restaurants.\n\nMehr Informationen\nSV Voucher\n\nOb zum Verschenken oder selbst Einlösen – mit unseren Gutscheinen trifft man immer die richtige Wahl.\n\nMehr Informationen\n1\n2\n3\nÖffnungszeiten\nChreis14\nMo - Fr:\n11:00-13:30 Uhr\nCafeteria BelleVUE\nMo - Fr:\n09:00-14:00 Uhr\nZum Download\nnote\nWochenmenüplan\nGastgeber\nRoman Koberstein\n+41 58 432 45 00\nE-Mail\ncircle@sv-group.ch\nDatenschutzerklärung\n|\nImpressum\nMittagsmenü | Chreis 14, Zürich | Menüplan | SV Restaurant\nCOOKIE-EINSTELLUNGEN"
     },
     {
       "id": "air",
@@ -96,34 +96,34 @@
         },
         {
           "category": "Daily Menu",
-          "name": "Penne mit Poulet und Pesto",
+          "name": "Butter Chicken mit Basmatireis",
           "description": "",
           "price": 21.9,
           "veggie": false
         },
         {
           "category": "Daily Grill",
-          "name": "Fleisch- und Gemüsespiess vom Grill",
+          "name": "Meatballs mit Chillisauce",
           "description": "",
           "price": 21.9,
           "veggie": false
         },
         {
           "category": "Daily Wok",
-          "name": "Massaman-Thai-Curry mit Kichererbsen vegan",
+          "name": "Gebratene Reisnudeln mit Pak Choi",
           "description": "",
           "price": 22.9,
-          "veggie": true
+          "veggie": null
         },
         {
           "category": "Daily Vegi",
-          "name": "Gemüsepiccata mit Spaghetti und Tomaten",
+          "name": "Fitness-Bowl Chili Mango mit Avocado vegan",
           "description": "",
           "price": 20.9,
           "veggie": true
         }
       ],
-      "raw_text": "PIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan\nBarkarte\nEvents\nStand: 13.07.2026 18:58\nPIZZA\nPIZZA OF THE WEEK\nPollo, speck e cipolle\n21.90\n \nDaily\nDaily Menu\nPenne mit Poulet und Pesto\n21.90\n \nGrill\nDaily Grill\nFleisch- und Gemüsespiess vom Grill\n21.90\n \nHot Wok\nDaily Wok\nMassaman-Thai-Curry mit Kichererbsen vegan\n22.90\nPIZZA\nMargherita\n17.50\n  Mozzarella, Tomaten, Oregano, Basilikum\nVerdura vegan\n19.50\n  Tomaten, Gemüse, Oregano\nDiavolo \n19.50\n Mozzarella, Tomaten, Chorizo, Chili\nTonno oder Pollo\n19.50\n  Mozzarella, Tomaten, Thunfisch oder Poulet, Zwiebeln\nProsciutto & Funghi\n19.50\n  Mozzarella, Tomaten, Vorderschinken, Pilze\nSalsiccia\n20.50\n  Mozzarella, Tomaten, Salsiccia, Speck, Zwiebeln\nHawaii\n20.50\n  Mozzarella, Tomaten, Vorderschinken, Ananas\nPIZZA OF THE WEEK\nPollo, speck e cipolle\n21.90\n  Mozzarella, Tomaten, Poulet, Speck, rote Zwiebel\nSPAGHETTI\nNapoli\n17.90\n \nBolognese\n18.90\n \nCarbonara\n18.90\n \nAIR Salat\n3.90\n \nDaily\nDaily Menu\nPenne mit Poulet und Pesto\n21.90\n  Penne, Poulet, Rahm, Pesto, Käse\nDaily Vegi\nGemüsepiccata mit Spaghetti und Tomaten\n20.90\n  Gemüsepiccata, Spaghetti, Tomatensauce\nAIR Salat\n3.90\n \nGazpacho mit Croûtons\n3.90\n \nGrill\nSt. Galler OLMA-Bratwurst\n18.90\n  Kalb, Schwein, Zwiebelsauce, 1 Beilage nach Wahl\nPaniertes Schweinsschnitzel\n19.90\n  Schwein, Pommes frites\nPouletbrust\n19.90\n  Poulet, Kräuterbutter, 1 Beilage nach Wahl\nRindsmedaillon 160g\n29.90\n  Rind, Kräuterbutter, Pommes frites\nEgli-Knusperli \n22.90\n Eglifilet, Tatarsauce, Pommes frites\nChicken Nuggets \n17.90\n 6 Chicken Nuggets, Pommes frites mit 2 Dips\nDaily Grill\nFleisch- und Gemüsespiess vom Grill\n21.90\n  Rind, Schwein, Gemüse, Pommes frites\nGRILL OF THE WEEK\nRindsmedaillon 160g mit Kräuterbutter\n29.90\n  Rind, Kräuterbutter, Pommes frites oder Buffet\nPommes frites\n0.00\n \noder Beilage vom Buffet bis 200 g frei, danach je 100 gr 4.90\n0.00\n \nAIR Salat\n3.90\n \nHot Wok\nTom Kha Gai\nklein   12.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\nTom Kha Gai\ngross   15.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\n3x Spring Rolls Veggie mit Basmatireis\n13.90\n  Karotten, Chinakohl, Lauch, Koriander, Sojasauce\n3x Poulet-Satay mit Basmatireis\n13.90\n  Poulet, Sweet&Sour Sauce\nSweet & Sour Poulet \n19.90\n Poulet, Gemüse, Ananas, Jasminreis\nDaily Wok\nMassaman-Thai-Curry mit Kichererbsen vegan\n22.90\n  Curry, Kichererbsen, Gemüse, Jasminreis\nWEEK WOK\nGelbes Thai-Curry mit Gemüse vegan\n22.90\n  Jasminreis, Gemüse\nInfo\nAirporters\nPizza of the week\nPollo, speck e cipolle\n13.90\n  Mozzarella, Tomaten, Poulet, Speck, rote Zwiebel\nDaily Menu\nPenne mit Poulet und Pesto\n14.90\n  Penne, Poulet, Rahm, Pesto, Käse\nDaily Veggie\nGemüsepiccata mit Spaghetti und Tomaten\n13.90\n  Gemüsepiccata, Spaghetti, Tomatensauce\nDAILY GRILL\nFleisch- und Gemüsespiess vom Grill\n14.90\n  Rind, Schwein, Gemüse, Pommes frites\nGRILL OF THE WEEK\nRindsmedaillon 160g mit Kräuterbutter\n24.90\n  Rind, Kräuterbutter, Pommes frites oder Buffet\nDaily Wok\nMassaman-Thai-Curry mit Kichererbsen vegan\n13.90\n  Curry, Kichererbsen, Gemüse, Jasminreis\nWOK OF THE WEEK\nGelbes Thai-Curry mit Gemüse vegan\n13.90\n  Jasminreis, Gemüse\nVegetarisch Kein Schweinefleisch Airporter\n\nWir geben Ihnen gerne detaillierte Informationen über mögliche Allergene in den einzelnen Produkten & Gerichten.\n\nAlle Preise sind in CHF inkl. MWST\n\nPIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan"
+      "raw_text": "PIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan\nBarkarte\nEvents\nStand: 14.07.2026 14:22\nPIZZA\nPIZZA OF THE WEEK\nPollo, speck e cipolle\n21.90\n \nDaily\nDaily Menu\nButter Chicken mit Basmatireis\n21.90\n \nGrill\nDaily Grill\nMeatballs mit Chillisauce\n21.90\n \nHot Wok\nDaily Wok\nGebratene Reisnudeln mit Pak Choi\n22.90\nPIZZA\nMargherita\n17.50\n  Mozzarella, Tomaten, Oregano, Basilikum\nVerdura vegan\n19.50\n  Tomaten, Gemüse, Oregano\nDiavolo \n19.50\n Mozzarella, Tomaten, Chorizo, Chili\nTonno oder Pollo\n19.50\n  Mozzarella, Tomaten, Thunfisch oder Poulet, Zwiebeln\nProsciutto & Funghi\n19.50\n  Mozzarella, Tomaten, Vorderschinken, Pilze\nSalsiccia\n20.50\n  Mozzarella, Tomaten, Salsiccia, Speck, Zwiebeln\nHawaii\n20.50\n  Mozzarella, Tomaten, Vorderschinken, Ananas\nPIZZA OF THE WEEK\nPollo, speck e cipolle\n21.90\n  Mozzarella, Tomaten, Poulet, Speck, rote Zwiebel\nSPAGHETTI\nNapoli\n17.90\n \nBolognese\n18.90\n \nCarbonara\n18.90\n \nAIR Salat\n3.90\n \nDaily\nDaily Menu\nButter Chicken mit Basmatireis\n21.90\n  Poulet, Reis, Tomaten, Cashewkerne, Joghurt, Butter\nDaily Vegi\nFitness-Bowl Chili Mango mit Avocado vegan\n20.90\n  Salat, Mango, Chili, Avocado, Ei, Balsamicodressing\nAIR Salat\n3.90\n \nGazpacho mit Croûtons\n3.90\n \nGrill\nSt. Galler OLMA-Bratwurst\n18.90\n  Kalb, Schwein, Zwiebelsauce, 1 Beilage nach Wahl\nPaniertes Schweinsschnitzel\n19.90\n  Schwein, Pommes frites\nPouletbrust\n19.90\n  Poulet, Kräuterbutter, 1 Beilage nach Wahl\nRindsmedaillon 160g\n29.90\n  Rind, Kräuterbutter, Pommes frites\nEgli-Knusperli \n22.90\n Eglifilet, Tatarsauce, Pommes frites\nChicken Nuggets \n17.90\n 6 Chicken Nuggets, Pommes frites mit 2 Dips\nDaily Grill\nMeatballs mit Chillisauce\n21.90\n  Rind, Pommes frites, Chillisauce\nGRILL OF THE WEEK\nRindsmedaillon 160g mit Kräuterbutter\n29.90\n  Rind, Kräuterbutter, Pommes frites oder Buffet\nPommes frites\n0.00\n \noder Beilage vom Buffet bis 200 g frei, danach je 100 gr 4.90\n0.00\n \nAIR Salat\n3.90\n \nHot Wok\nTom Kha Gai\nklein   12.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\nTom Kha Gai\ngross   15.90\n  Poulet, Kokosmilchsuppe, Pilze, Koriander, Chili\n3x Spring Rolls Veggie mit Basmatireis\n13.90\n  Karotten, Chinakohl, Lauch, Koriander, Sojasauce\n3x Poulet-Satay mit Basmatireis\n13.90\n  Poulet, Sweet&Sour Sauce\nSweet & Sour Poulet \n19.90\n Poulet, Gemüse, Ananas, Jasminreis\nDaily Wok\nGebratene Reisnudeln mit Pak Choi\n22.90\n  Pak Choi, Ei, Nudeln, Gemüse und Soja\nWEEK WOK\nGelbes Thai-Curry mit Gemüse vegan\n22.90\n  Jasminreis, Gemüse\nInfo\nAirporters\nPizza of the week\nPollo, speck e cipolle\n13.90\n  Mozzarella, Tomaten, Poulet, Speck, rote Zwiebel\nDaily Menu\nButter Chicken mit Basmatireis\n14.90\n  Poulet, Reis, Tomaten, Cashewkerne, Joghurt, Butter\nDaily Veggie\nFitness-Bowl Chili Mango mit Avocado vegan\n13.90\n  Salat, Mango, Chili, Avocado, Ei, Balsamicodressing\nDAILY GRILL\nMeatballs mit Chillisauce\n14.90\n  Rind, Pommes frites, Chillisauce\nGRILL OF THE WEEK\nRindsmedaillon 160g mit Kräuterbutter\n24.90\n  Rind, Kräuterbutter, Pommes frites oder Buffet\nDaily Wok\nGebratene Reisnudeln mit Pak Choi\n13.90\n  Pak Choi, Ei, Nudeln, Gemüse und Soja\nWOK OF THE WEEK\nGelbes Thai-Curry mit Gemüse vegan\n13.90\n  Jasminreis, Gemüse\nPIZZA\nDaily\nGrill\nHot Wok\nAirporters\nWochenmenüplan"
     },
     {
       "id": "babel",
@@ -290,14 +290,6 @@
       "error": null,
       "items": [
         {
-          "category": "Tageshit Montag bis Freitag von 11.30 Uhr - 18 Uhr",
-          "name": "Herkunft Fisch und Fleisch: Poulet - CH, Rind - CH, Lamm - NZ*, Kalb - CH, Schwein - CH, Garnelen - VN, Crevetten - Chile, Lachs - SCO, Zander - CH. Unsere Backwaren stammen aus der Schweiz (Burgers & Sandwiches) und EU (Wraps). Über Zutaten in unseren Gerichten, die Allergien oder Intoleranzen auslösen können, informieren Sie unsere Mitarbeitenden auf Anfrage gerne. *Kann mit nicht hormonellen Leistungsförderern, wie Antibiotika, erzeugt worden sein. Alle Preise sind in Schweizer Franken inklusive 8.1% MwSt.",
-          "description": "WÖCHENTLICH VEGAN",
-          "price": 25.0,
-          "price_with_salad": null,
-          "veggie": true
-        },
-        {
           "category": "Wöchentlich vegan",
           "name": "Pilzeintopf",
           "description": "Tomaten, Basilikum",
@@ -306,12 +298,12 @@
           "veggie": true
         },
         {
-          "category": "Tageshit MONTAG, 13.07.",
-          "name": "Gebratener Zander",
-          "description": "Kartoffel-Gurken-Salat, Dillrahmsauce",
-          "price": null,
+          "category": "Tageshit DIENSTAG, 14.07.",
+          "name": "Lammhackbällchen",
+          "description": "Tomaten-Orzo, Feta Crumble",
+          "price": 25.0,
           "price_with_salad": 29.0,
-          "veggie": null
+          "veggie": false
         }
       ],
       "raw_text": "Sprache\n+41445974666\nTÄGLICHE MITTAGS-HITS\nBBQ MENU\nSPEISEKARTE\nKINDER MENU\nBARKARTE\nGRUPPENMENU - RACLETTE\nGRUPPEN MENU - BURGER\nMontag bis Freitag von 11.30 Uhr - 18 Uhr\n\nHerkunft Fisch und Fleisch: Poulet - CH, Rind - CH, Lamm - NZ*, Kalb - CH, Schwein - CH, Garnelen - VN, Crevetten - Chile, Lachs - SCO, Zander - CH. Unsere Backwaren stammen aus der Schweiz (Burgers & Sandwiches) und EU (Wraps). Über Zutaten in unseren Gerichten, die Allergien oder Intoleranzen auslösen können, informieren Sie unsere Mitarbeitenden auf Anfrage gerne. *Kann mit nicht hormonellen Leistungsförderern, wie Antibiotika, erzeugt worden sein. Alle Preise sind in Schweizer Franken inklusive 8.1% MwSt.\n\nWÖCHENTLICH VEGAN\nPilzeintopf\n\nTomaten, Basilikum\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nMONTAG, 13.07.\nGebratener Zander\n\nKartoffel-Gurken-Salat, Dillrahmsauce\n\n25.00\nCHF\n• with salad\n29.00\nCHF\nDIENSTAG, 14.07.\nLammhackbällchen\n\nTomaten-Orzo, Feta Crumble\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nMITTWOCH, 15.07.\nKalbsbratwurst vom Grill\n\nZwiebelsauce, Bratkartoffeln BBQ\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nbbq\nDONNERSTAG, 16.07.\nÜberbackene Gnocchi alla Sorrentina\n\nTomaten, Basilikum, Mozzarella\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nVegetarisch\nFREITAG, 17.07.\nRinds Bolognese\n\nPappardelle, Parmesan\n\n25.00\nCHF\n• mit Salat\n29.00\nCHF\nLassen Sie uns helfen.\n\nWenn Sie Allergene oder Ernährungseinschränkungen haben, teilen Sie dies bitte unserem Personal mit."
